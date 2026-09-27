@@ -5,6 +5,11 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
 }
 
+// 依赖锁定：生成并校验 lockfile（供应链安全）
+dependencyLocking {
+    lockAllConfigurations()
+}
+
 android {
     namespace = "com.example.mcmonitor"
     compileSdk = 35
