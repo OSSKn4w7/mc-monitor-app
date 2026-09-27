@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# 本机 SDK 路径，勿提交
+local.properties
+
+# 构建产物
+*.apk
+*.aab
+
+# 日志与系统文件
+*.log
+.DS_Store
+.mimosa/
